@@ -1,5 +1,4 @@
 .place__brief {
-  font-family: 'Inter';
   font-style: normal;
   font-weight: normal;
   font-size: 18px;
@@ -7,6 +6,10 @@
   margin: 0 0 26px 0;
   padding: 0;
   color: #FFFFFF;
+}
+
+.place__brief:last-of-type {
+  margin-bottom: 0;
 }
 
 @media screen and (max-width:767px) {
